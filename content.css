@@ -1,0 +1,176 @@
+/* content.css */
+/* Styles for content pages */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto; /* Centers the page horizontally */
+    padding: 0;
+    background-color: #ccc;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+.logo-container {
+    display: inline-block; /* Ensure the container takes only the necessary width */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.logo-container img {
+    width: 150px; 
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align the image vertically within the container */
+}
+nav {
+    margin-top: 10px; /* Add some space between header and nav */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+section {
+    display: flex;
+    padding: 20px;
+}
+
+section article {
+    /* flex: 2; */
+    flex-grow: 1;
+    padding-left: 20px;
+}
+
+section aside {
+    /* flex: 1; */
+    flex-basis: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+/* .image-gallery {
+    margin-bottom: 20px;
+    background-color: #e6e6e6;
+    overflow: hidden;
+}*/
+
+.gallery-item {
+    display: inline-block;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    display: block;
+}
+.image-gallery {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+    margin-bottom: 20px; /* Add some bottom margin */
+}
+
+.slide {
+    flex: 0 0 auto;
+    scroll-snap-align: center;
+}
+
+.slide img {
+    width: 100%; /* Ensure images fill the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure proper rendering */
+}
+.about-section {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.about-section:nth-child(odd) {
+    background-color: #d9d9d9;
+}
+
+.about-section:nth-child(even) {
+    background-color: #cccccc;
+}
+
+/* Form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+.social-media-icons {
+    font-size: 24px; /* Adjust icon size */
+}
+
+.social-media-icons i {
+    margin-right: 10px; /* Add spacing between icons */
+    color: #333; /* Change icon color */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
