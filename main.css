@@ -2,7 +2,8 @@
 /* Styles for the home page */
 body {
     font-family: Arial, sans-serif;
-    margin: 0 auto; /* Centers the page horizontally */
+    margin: 0 auto;
+    /* Centers the page horizontally */
     padding: 0;
     background-color: #ccc;
 }
@@ -18,18 +19,25 @@ header h1 {
     margin: 0;
     text-align: center;
 }
+
 .logo-container {
-    display: inline-block; /* Ensure the container takes only the necessary width */
-    margin: 0 auto; /* Center the container horizontally */
+    display: inline-block;
+    /* Ensure the container takes only the necessary width */
+    margin: 0 auto;
+    /* Center the container horizontally */
 }
 
 .logo-container img {
-    width: 150px; 
-    height: auto; /* Maintain aspect ratio */
-    vertical-align: middle; /* Align the image vertically within the container */
+    width: 150px;
+    height: auto;
+    /* Maintain aspect ratio */
+    vertical-align: middle;
+    /* Align the image vertically within the container */
 }
+
 nav {
-    margin-top: 10px; /* Add some space between header and nav */
+    margin-top: 10px;
+    /* Add some space between header and nav */
 }
 
 nav ul {
@@ -53,11 +61,12 @@ section article {
 }
 
 section aside {
-    
+
     flex-basis: 200px;
     background-color: #eaeaea;
     padding: 20px;
 }
+
 /* Profile photo and description */
 .profile {
     text-align: center;
@@ -77,13 +86,18 @@ section aside {
 .table table {
     width: 100%;
     border-collapse: collapse;
-    border: 2px solid #ccc; /* Add border to the table */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow to the table */
+    border: 2px solid #ccc;
+    /* Add border to the table */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Add shadow to the table */
 }
 
-.table th, .table td {
-    padding: 12px; /* Increase padding for better spacing */
-    border: 1px solid #ccc; /* Add border to table cells */
+.table th,
+.table td {
+    padding: 12px;
+    /* Increase padding for better spacing */
+    border: 1px solid #ccc;
+    /* Add border to table cells */
 }
 
 .table th {
@@ -93,20 +107,24 @@ section aside {
 }
 
 /* Style for specific table cells */
-.table td[rowspan], .table td[colspan] {
-    background-color: #e6f7ff; /* Change background color for cells with rowspan/colspan */
+.table td[rowspan],
+.table td[colspan] {
+    background-color: #e6f7ff;
+    /* Change background color for cells with rowspan/colspan */
     font-weight: bold;
     text-align: center;
 }
 
 /* Hover effect for table rows */
 .table tr:hover {
-    background-color: #f5f5f5; /* Change background color on hover */
+    background-color: #f5f5f5;
+    /* Change background color on hover */
 }
 
 /* Alternate row colors */
 .table tr:nth-child(even) {
-    background-color: #f9f9f9; /* Alternate row color */
+    background-color: #f9f9f9;
+    /* Alternate row color */
 }
 
 footer {
@@ -115,3 +133,5 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+
