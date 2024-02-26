@@ -63,7 +63,7 @@ section article {
 section aside {
     /* flex: 1; */
     flex-basis: 200px;
-    background-color: #f0f0f0;
+    background-color: #eaeaea;
     padding: 20px;
 }
 /* .image-gallery {
